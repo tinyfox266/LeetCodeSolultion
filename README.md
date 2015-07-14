@@ -1,3 +1,90 @@
+# Progress 写作进度
+- [x] 104 Maximum Depth of Binary Tree
+- [x] 111 Minimum Depth of Binary Tree
+
+
+
+# Requirement(编辑要求)
+*  Please put the file in the corresponding directory explained in the [file and
+   directory arrangement] section. (请按照[目录安排]中的说明书写和放置文件) 
+* Please record the problems whose solutions you've written or you are ready to
+  write in [Progress] section (请将自己写完和准备写的问题在[写作进度]中注明)
+* Please record the problems you've added in
+  "problems.md"。(请将自己写完的问题在problem.md中记录)
+*  Please comment the problems you've added in the commit message when you
+   commit. (每次提交时，请在提交信息中注明增加了哪些问题的解答)
+ 
+# File and Directory Arrangement(目录安排)
+* README.md corresponds the preface of the book.
+* SUMMARY.md describes the contents of the book and the location of the individual
+  chapters.
+
+  For example, 
+  <pre>
+    # Summary
+    * [Part I](part1/README.md)
+        * [Writing is nice](part1/writing.md)
+        * [GitBook is nice](part1/gitbook.md)
+    * [Part II](part2/README.md)
+        * [We love feedback](part2/feedback_please.md)
+        * [Better tools for authors](part2/better_tools.md)
+  </pre>
+
+   describes that there are two chapters named "Part I" and "Part II", which
+   each contain two subchapters . The contents of "Part I" and "Part II"
+   are located in file "part1/README.md" and "part2/README.md" respectively.
+
+   For the more information, please visit [GitBook Help](http://help.gitbook.com/format/chapters.html) 
+
+* It is planned to write four chapters for now:
+    * [Problems](problems.md)
+
+    Record all the problems explained in this book, and the links to the
+    solutions in this book.
+
+    All Problems are intended to be sorted by their indexed in leetcode finally.
+    But the order can be ignored temporarily.
+
+    * [Recursion](recursion/README.md)
+
+    Record all the solutions of the problems which can be solved by recursion.
+    All the solutions are located in directory "recursion".
+
+    The problems are classfied by data structures, i.e. tree, list, string etc.,
+    and the solutions which belong to the same category are put into the same
+    directory. For example, all solutions of the problems related to tree are
+    located in directory "recursion/tree". If a problem cannot be categorized
+    apparently, it is thrown in to the "recursion/other" directory.
+
+    * Record all the solutions of the problems which can be solved by dynamic
+      programming.
+
+      The classfication method is not determined now, just put them into the
+      same directory named "dp".
+
+    * [Other](other/README.md)
+
+    All the problems cannot be solved  by recursion and dynamic programming are
+    collected here. The directory is "other".
+
+# Editing Way(编辑方式)
+* Edit on Github
+
+clone this repository, edit and submit, the gitbook will be updated
+automatically.
+
+This way is recommended, because gitbook.com is loading very slow.
+
+* Edit on Gitbook
+
+On www.gitbook.com, it allows online editing and the preview of the markdown
+file is shown simultaneously when you edit.
+
+* Generate git book offline
+
+[Gitbook简明教程](http://www.colobu.com/2014/10/09/gitbook-quickstart/)
+
+
 # 前言
 刷LeetCode是一段艰辛的旅程，特别对于像我这样算法不是很扎实，平时脱离编程的人。
 但为了找到一份像样的工作，还是硬着头皮刷了。编程、计算机从来也没有成为我的爱，
