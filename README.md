@@ -1,7 +1,8 @@
 # Progress 写作进度
 - [x] 104 Maximum Depth of Binary Tree
 - [x] 111 Minimum Depth of Binary Tree
-
+- [x] 174 Dungeon Game
+- [ ] 84  Largest Rectangle in Histogram
 
 
 # Requirement(编辑要求)
@@ -14,8 +15,17 @@
 *  Please comment the problems you've added in the commit message when you
    commit. (每次提交时，请在提交信息中注明增加了哪些问题的解答)
 * Please write each solution page following the requirement demonstrated in the
-  next section(last item)
-* The html file is not required.
+  next section(last item) (请按照下节中的示例来书解答页面)
+* Please do not submit the interediate files such as *.html, *~,
+    *.swp(请不要将中间文件或临时备份文件提交)
+    
+  write a file named ".gitignore" in your root directory, containing the
+  patterns of files you are ready to ignore. The following content is an example:
+  ```
+  *.html
+  *~
+  *.swp
+  ``` 
  
 # File and Directory Arrangement(目录安排)
 * README.md corresponds the preface of the book.
