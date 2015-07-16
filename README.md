@@ -3,7 +3,8 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 104 Maximum Depth of Binary Tree
 - [x] 111 Minimum Depth of Binary Tree
 - [x] 174 Dungeon Game
-- [ ] 84  Largest Rectangle in Histogram
+- [x] 84  Largest Rectangle in Histogram
+- [ ] 85  Maximal Rectangle
 
 
 # Requirement(编辑要求)
