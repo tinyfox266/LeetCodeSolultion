@@ -5,6 +5,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 174 Dungeon Game
 - [x] 84  Largest Rectangle in Histogram
 - [x] 85  Maximal Rectangle
+- [x] 198 House Robber
 
 
 # Requirement(编辑要求)
