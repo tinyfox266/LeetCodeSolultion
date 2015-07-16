@@ -6,4 +6,7 @@
 * [85 Maximal Rectangle](other/MaximalRectangle.md)
 * [198 House Robber](dp/array/HouseRobber.md)
 * [213 House Robber II](dp/array/HouseRobber2.md)
+* [42 Trapping Rain Water](other/TrappingRainWater.md)
+
+
 

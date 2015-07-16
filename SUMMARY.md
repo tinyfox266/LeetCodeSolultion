@@ -13,3 +13,4 @@
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
     * [Maximal Rectangle](other/MaximalRectangle.md)
+    * [Trapping Rain Water](other/TrappingRainWater.md)

@@ -7,7 +7,8 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 85  Maximal Rectangle
 - [x] 198 House Robber
 - [x] 213 House Robber
-- [ ] 42 Trapping Rain Water
+- [x] 42 Trapping Rain Water
+- [ ] 11 Container With Most Water
 
 
 # Requirement(编辑要求)
