@@ -10,3 +10,4 @@
         * [Dungeon Game](dp/array/DungeonGame.md)
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
+    * [Maximal Rectangle](other/MaximalRectangle.md)
