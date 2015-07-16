@@ -8,3 +8,5 @@
     * [String](dp/string/README.md)
     * [Array](dp/array/README.md)
         * [Dungeon Game](dp/array/DungeonGame.md)
+* [Other](other/README.md)
+    * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)

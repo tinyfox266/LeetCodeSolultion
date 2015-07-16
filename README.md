@@ -1,3 +1,4 @@
+This online version of this book can be viewed on [gitbook.com] http://tinyfox266.gitbooks.io/leetcode/content/
 # Progress 写作进度
 - [x] 104 Maximum Depth of Binary Tree
 - [x] 111 Minimum Depth of Binary Tree
