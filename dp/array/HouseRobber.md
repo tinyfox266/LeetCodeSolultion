@@ -24,7 +24,7 @@ leetcode:[198 House Robber](https://leetcode.com/problems/house-robber/)
   加上第i家的收益。 
 * 不偷第i家，那么他能获得的最大收益是偷0,...,i-1家的最大收益。  
 
-每次都去上述两种情况中大的那个即可。
+每次都取上述两种情况中大的那个即可。
 
 边界条件dp[0] = nums[0]。因为只有一家可偷，当然选择偷啦。
 

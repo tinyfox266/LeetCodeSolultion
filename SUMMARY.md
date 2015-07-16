@@ -9,6 +9,7 @@
     * [Array](dp/array/README.md)
         * [Dungeon Game](dp/array/DungeonGame.md)
         * [House Robber](dp/array/HouseRobber.md)
+        * [House Robber II](dp/array/HouseRobber2.md)
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
     * [Maximal Rectangle](other/MaximalRectangle.md)
