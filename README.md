@@ -13,7 +13,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 122 Best Time to Buy and Sell Stock II
 - [x] 123 Best Time to Buy and Sell Stock III
 - [x] 188 Best Time to Buy and Sell Stock IV
-- [ ] 218 The Skyline Problem 
+- [x] 218 The Skyline Problem 
 - [ ] 207 Course Schedule
 - [ ] 2l0 Course Schedule II
 - [ ] 135 Candy

@@ -4,6 +4,8 @@
     * [Tree](recursion/tree/README.md)
         * [Maximum Depth of Binary Tree](recursion/tree/MaximumDepthOfBinaryTree.md)
         * [Minimum Depth of Binary Tree](recursion/tree/MinimumDepthOfBinaryTree.md)
+    * [Array](recursion/array/README.md)
+        * [The Skyline Problem](recursion/array/TheSkylineProblem.md)
 * [Dynamic Programming](dp/README.md)
     * [String](dp/string/README.md)
     * [Array](dp/array/README.md)
@@ -19,7 +21,3 @@
     * [Container With Most Water](other/ContainerWithMostWater.md)
     * [Best Time to Buy and Sell Stock](other/BestTimeToBuyAndSellStock.md)
     * [Best Time to Buy and Sell Stock II](other/BestTimeToBuyAndSellStock2.md)
-<<<<<<< HEAD
-=======
-
->>>>>>> zzp
