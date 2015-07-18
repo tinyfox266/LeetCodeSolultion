@@ -10,6 +10,7 @@
         * [Dungeon Game](dp/array/DungeonGame.md)
         * [House Robber](dp/array/HouseRobber.md)
         * [House Robber II](dp/array/HouseRobber2.md)
+        * [Best Time to Buy and Sell Stock III](dp/array/BestTimeToBuyAndSellStock3.md)
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
     * [Maximal Rectangle](other/MaximalRectangle.md)

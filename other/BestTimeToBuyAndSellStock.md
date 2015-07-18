@@ -5,14 +5,14 @@ leetcode:[121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/bes
 > 
 > If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 
-## Ë¼Â·
-Ê×ÏÈµÃµ½Èç¹ûµÚiÌìÂôµÄ»°£¬ÄÜ¹»»ñµÃµÄ×î´óÊÕÒæmaxSell[i]£¬È»ºóÈ¡ÕâN¸öÖµÖĞµÄ×î´óÖµ¡£
+## æ€è·¯
+é¦–å…ˆå¾—åˆ°å¦‚æœç¬¬iå¤©å–çš„è¯ï¼Œèƒ½å¤Ÿè·å¾—çš„æœ€å¤§æ”¶ç›ŠmaxSell[i]ï¼Œç„¶åå–è¿™Nä¸ªå€¼ä¸­çš„æœ€å¤§å€¼ã€‚
 
 maxSell[i] = prices[i] - min
 
-ÆäÖĞ£¬prices[i]±íÊ¾µÚiÌìµÄ¼Û¸ñ£¬ min±íÊ¾µÚ0,...,i-1ÌìÖĞ¼Û¸ñµÄ×îĞ¡Öµ¡£
+å…¶ä¸­ï¼Œprices[i]è¡¨ç¤ºç¬¬iå¤©çš„ä»·æ ¼ï¼Œ minè¡¨ç¤ºç¬¬0,...,i-1å¤©ä¸­ä»·æ ¼çš„æœ€å°å€¼ã€‚
 
-## Java ´úÂë
+## Java ä»£ç 
 ``` java
 public class Solution {
     public int maxProfit(int[] prices) {
