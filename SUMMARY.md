@@ -4,6 +4,8 @@
     * [Tree](recursion/tree/README.md)
         * [Maximum Depth of Binary Tree](recursion/tree/MaximumDepthOfBinaryTree.md)
         * [Minimum Depth of Binary Tree](recursion/tree/MinimumDepthOfBinaryTree.md)
+    * [Array](recursion/array/README.md)
+        * [The Skyline Problem](recursion/array/TheSkylineProblem.md)
 * [Dynamic Programming](dp/README.md)
     * [String](dp/string/README.md)
     * [Array](dp/array/README.md)
