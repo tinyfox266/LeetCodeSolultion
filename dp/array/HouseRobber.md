@@ -26,7 +26,7 @@ leetcode:[198 House Robber](https://leetcode.com/problems/house-robber/)
 
 每次都取上述两种情况中大的那个即可。
 
-边界条件dp[0] = nums[0]。因为只有一家可偷，当然选择偷啦。
+边界条件`dp[0] = nums[0]`。因为只有一家可偷，当然选择偷啦。
 
 
 

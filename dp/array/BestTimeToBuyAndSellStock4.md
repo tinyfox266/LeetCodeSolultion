@@ -30,7 +30,7 @@ leetcode:[123 Best Time to Buy and Sell Stock III](https://leetcode.com/problems
     那么j天就不能卖出股票,与前提矛盾了。
 
 既然，第i天是否能卖出股票与第i-1天是否卖出股票有关，那我们不妨记录两种情况，
-第i天卖出股票的最大收益lastDaySell[i][j]和第i天不卖出股票的最大收益lastDayNotSell[i][j]。
+第i天卖出股票的最大收益`lastDaySell[i][j]`和第i天不卖出股票的最大收益`lastDayNotSell[i][j]`。
 于是，我们有了下面的动规方程：
 
 `lastDaySell[i][j] = Max(lastDayNotSell[i-1][j-1], lastDaySell[i-1][j]) + prices[i] - prices[i-1]`
