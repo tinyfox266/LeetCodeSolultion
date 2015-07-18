@@ -10,38 +10,38 @@ leetcode:[123 Best Time to Buy and Sell Stock III](https://leetcode.com/problems
 > 
 > You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
-## ˼·
-��Ϊ���������ν��ף���ô�����������
-* ֻ����һ�ν��ף���ô������[Best Time to Buy and Sell Stock](../../other/BestTimeToBuyAndSellStock.md)��
-    ��ֵ����maxBefore[N]������maxBefore[i]�ĺ������������ᵽ��NΪ���˼۸��������
+## 思路
+因为至多做两次交易，那么有两种情况：
+* 只做了一次交易，那么便变成了[Best Time to Buy and Sell Stock](../../other/BestTimeToBuyAndSellStock.md)。
+    其值就是maxBefore[N]，其中maxBefore[i]的含义在下文中提到，N为给了价格的天数。
     
-* �������ν��ס������ν��׿��Էֱ�������[0,i)��[i,N-1]��ɣ�����NΪ���˼۸��������
+* 做了两次交易。这两次交易可以分别在区间[0,i)和[i,N-1]完成，其中N为给了价格的天数。
 
-����������������[0,i)����һ�ν��׵��������maxBefore[i]��ô���㡣
+下面来看，在区间[0,i)内做一次交易的最大收益maxBefore[i]怎么计算。
 
 maxBefore[i] = Max(maxBefore[i-1], prices[i-1]-min)
 
-���У�prices[i-1]Ϊ��i-1��ļ۸�minΪ��0�쵽��i-2��۸����Сֵ��
+其中，prices[i-1]为第i-1天的价格，min为第0天到第i-2天价格的最小值。
 
-�÷��̵ĺ���Ϊ��
-* Ҫô���һ������Ľ�����i-1ǰ���
-* Ҫô�ڵ�i-1�����(��)���ܵõ����������Ϊprices[i-1]-min
+该方程的含义为：
+* 要么最大一次收益的交易在i-1前完成
+* 要么在第i-1天完成(卖)，能得到的最大收益为prices[i-1]-min
 
-Ȼ��ȡ�����������Ǹ����ɡ�
+然后取两者中最大的那个即可。
 
-����������������[i,N-1]����һ�ν��׵��������maxAfter[i]��ô���㡣
+接着来看，在区间[i,N-1]内做一次交易的最大收益maxAfter[i]怎么计算。
 
 maxAfter[i] = Max(maxAfter[i+1], max-prices[i])
 
-���У�prices[i]��ʾ��i��ļ۸�max��ʾ��i�쵽��N-1���м۸�����ֵ��
+其中，prices[i]表示第i天的价格，max表示第i天到第N-1天中价格的最大值。
 
-�÷��̵ĺ���Ϊ��
-* Ҫô���һ������Ľ����ڵ�i+1�쵽��N-1����ɡ�
-* Ҫô���һ������Ľ��״ӵ�i�쿪ʼ(��)��
+该方程的含义为：
+* 要么最大一次收益的交易在第i+1天到第N-1天完成。
+* 要么最大一次收益的交易从第i天开始(买)。
 
-Ȼ��ȡ�����������Ǹ����ɡ�
+然后取两者中最大的那个即可。
 
-## Java ����
+## Java 代码
 ```
 public class Solution {
     public int maxProfit(int[] prices) {

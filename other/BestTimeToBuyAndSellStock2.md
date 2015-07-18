@@ -9,16 +9,16 @@ leetcode:[122 Best Time to Buy and Sell Stock II](https://leetcode.com/problems/
 > you may not engage in multiple transactions at the same time (ie, you must sell 
 > the stock before you buy again).
 
-## ˼·
-��Ȼ��������ν��ף���ô���е�������ĵ㶼����ס������������
+## 思路
+既然能做任意次交易，那么所有低买高卖的点都把握住，获得收益最大。
 
-ֻҪ����ļ۸�Ƚ���ļ۸�ߣ���ô�ұ����������ڶ����������������Ϊ
-price[i+1] - price[i]��
+只要明天的价格比今天的价格高，那么我便今天买进，第二天卖掉，获得收益为
+price[i+1] - price[i]。
 
-�������������۸������أ��ڶ��죬�ҾͲ������ˡ�����������۸����ǵ����棬�Ҷ���
-�õ���ֻҪ�ҽ���������������������ɡ�
+那如果连续两天价格上涨呢？第二天，我就不能卖了。但是这两天价格上涨的收益，我都能
+得到，只要我今天买进，第三天卖掉即可。
 
-## Java ����
+## Java 代码
 ``` java
 public class Solution {
     public int maxProfit(int[] prices) {
@@ -36,5 +36,4 @@ public class Solution {
 }
 
 ```
-
 
