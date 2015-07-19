@@ -13,5 +13,6 @@
 * [123 Best Time to Buy and Sell Stock III](dp/array/BestTimeToBuyAndSellStock3.md)
 * [188 Best Time to Buy and Sell Stock IV](dp/array/BestTimeToBuyAndSellStock4.md)
 * [218 The Skyline Problem](recursion/array/TheSkylineProblem.md)
+* [207 Course Schedule](other/CourseSchedule.md)
 
 
