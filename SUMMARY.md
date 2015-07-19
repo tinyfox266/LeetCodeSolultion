@@ -22,4 +22,5 @@
     * [Best Time to Buy and Sell Stock](other/BestTimeToBuyAndSellStock.md)
     * [Best Time to Buy and Sell Stock II](other/BestTimeToBuyAndSellStock2.md)
     * [Course Schedule](other/CourseSchedule.md)
+    * [Course Schedule II](other/CourseSchedule2.md)
 
