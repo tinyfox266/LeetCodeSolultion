@@ -24,8 +24,8 @@ leetcode:[2l0 Course Schedule II](https://leetcode.com/problems/course-schedule-
 > Read more about [how a graph is represented](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs).
 
 ## 思路
-相比于[Course Schedule](CourseSchedule.md),这道题如果存在满足要求的课程安排的话，
-输出其中的一种安排顺序。我需要增加的操作就是在每当删除一个没有前继的节点时，便
+相比于[Course Schedule](CourseSchedule.md),这道题要求，如果存在满足要求的课程安排的话，
+输出其中的一种安排顺序。我们需要增加的操作就是在每当删除一个没有前继的节点时，便
 将这个节点加入到结果的数组order中。
 
 ## Java 代码
