@@ -15,5 +15,6 @@
 * [218 The Skyline Problem](recursion/array/TheSkylineProblem.md)
 * [207 Course Schedule](other/CourseSchedule.md)
 * [210 Course Schedule II](other/CourseSchedule2.md)
+* [135 Candy](other/Candy.md)
 
 
