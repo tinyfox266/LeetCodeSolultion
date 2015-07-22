@@ -22,7 +22,10 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 51 N-Queens
 - [x] 52 N-Queens II
 - [x] 55 Jump Game
-- [ ] 45 Jump Game II
+- [x] 45 Jump Game II
+- [ ] 32 Longest Valid Parentheses
+- [ ] 37 Sudoku Solver
+- [ ] 72 Edit Distance
 
 
 
@@ -70,7 +73,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 
    For the more information, please visit [GitBook Help](http://help.gitbook.com/format/chapters.html) 
 
-* It is planned to write five chapters for now:
+* It is planned to write six chapters for now:
     * [Problems](problems.md)
 
     Record all the problems explained in this book, and the links to the
@@ -97,6 +100,11 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 
       The classfication method is not determined now, just put them into the
       same directory named "dp".
+    
+    * [Greedy](greedy/README.md)
+    
+     Record all the solutions of the problems which can be solved by greedy method.
+
       
     * [DFS](dfs/README.md)
      
