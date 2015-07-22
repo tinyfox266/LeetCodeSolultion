@@ -20,7 +20,9 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 134 Gas Station
 - [x] 130 Surrounded Regions
 - [x] 51 N-Queens
-- [ ] 52 N-Queens II
+- [x] 52 N-Queens II
+- [ ] 55 Jump Game
+- [ ] 45 Jump Game II
 
 
 

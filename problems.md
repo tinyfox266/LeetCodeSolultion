@@ -18,6 +18,7 @@
 * [135 Candy](other/Candy.md)
 * [134 Gas Station](other/GasStation.md)
 * [130 Surrounded Regions](dfs/SurroundedRegions.md)
-* [51 N-Queens](backtracing/README.md)
+* [51 N-Queens](backtracing/NQueens.md)
+* [52 N-Queens](backtracing/NQueens2.md)
 
 

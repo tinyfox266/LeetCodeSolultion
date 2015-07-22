@@ -18,6 +18,7 @@
     * [130 Surrounded Regions](dfs/SurroundedRegions.md)
 * [Backtracing](backtracing/README.md)
     * [51 N-Queens](backtracing/NQueens.md)
+    * [52 N-Queens](backtracing/NQueens2.md)
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
     * [Maximal Rectangle](other/MaximalRectangle.md)
