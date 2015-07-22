@@ -18,7 +18,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 2l0 Course Schedule II
 - [x] 135 Candy
 - [x] 134 Gas Station
-- [ ] 130 Surrounded Regions
+- [x] 130 Surrounded Regions
 - [ ] 51 N-Queens
 - [ ] 52 N-Queens II
 
@@ -68,7 +68,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 
    For the more information, please visit [GitBook Help](http://help.gitbook.com/format/chapters.html) 
 
-* It is planned to write four chapters for now:
+* It is planned to write five chapters for now:
     * [Problems](problems.md)
 
     Record all the problems explained in this book, and the links to the
@@ -87,17 +87,28 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
     directory. For example, all solutions of the problems related to tree are
     located in directory "recursion/tree". If a problem cannot be categorized
     apparently, it is thrown in to the "recursion/other" directory.
+    
+    * [Dynamic Programming](dp/README.md)
 
-    * Record all the solutions of the problems which can be solved by dynamic
+     Record all the solutions of the problems which can be solved by dynamic
       programming.
 
       The classfication method is not determined now, just put them into the
       same directory named "dp".
+      
+    * [DFS](dfs/README.md)
+     
+     Record all the solutions of the problems which can be solved by depth-first
+     search(DFS).
+    
+
 
     * [Other](other/README.md)
 
     All the problems cannot be solved  by recursion and dynamic programming are
     collected here. The directory is "other".
+    
+
 * Solution Page Example: 
 <pre>
 # Maximum Depth of Binary Tree
