@@ -20,5 +20,6 @@
 * [130 Surrounded Regions](dfs/SurroundedRegions.md)
 * [51 N-Queens](backtracing/NQueens.md)
 * [52 N-Queens](backtracing/NQueens2.md)
+* [55 Jump Game](dp/array/JumpGame.md)
 
 
