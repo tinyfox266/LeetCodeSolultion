@@ -18,7 +18,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 2l0 Course Schedule II
 - [x] 135 Candy
 - [x] 134 Gas Station
-- [ ] 130 Surrounded Regions
+- [x] 130 Surrounded Regions
 - [ ] 51 N-Queens
 - [ ] 52 N-Queens II
 
