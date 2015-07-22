@@ -16,6 +16,8 @@
         * [Best Time to Buy and Sell Stock IV](dp/array/BestTimeToBuyAndSellStock4.md)
 * [DFS](dfs/README.md)
     * [130 Surrounded Regions](dfs/SurroundedRegions.md)
+* [Backtracing](backtracing/README.md)
+    * [51 N-Queens](backtracing/NQueens.md)
 * [Other](other/README.md)
     * [Largest Rectangle in Histogram](other/LargestRectangleInHistogram.md)
     * [Maximal Rectangle](other/MaximalRectangle.md)
