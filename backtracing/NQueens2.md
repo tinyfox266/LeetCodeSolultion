@@ -1,6 +1,6 @@
 # N-Queens II 
 ## Source
-leetcode:[51 N-Queens](https://leetcode.com/problems/n-queens-ii/)
+leetcode:[52 N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 > Follow up for N-Queens problem.
 > 
 > Now, instead outputting board configurations, return the total number of
