@@ -22,4 +22,4 @@
 * [52 N-Queens](backtracing/NQueens2.md)
 * [55 Jump Game](dp/array/JumpGame.md)
 * [45 Jump Game II](greedy/JumpGame2.md)
-
+* [32 Longest Valid Parentheses](dp/array/LongestValidParentheses.md)

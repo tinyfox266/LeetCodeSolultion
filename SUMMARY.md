@@ -15,6 +15,7 @@
         * [Best Time to Buy and Sell Stock III](dp/array/BestTimeToBuyAndSellStock3.md)
         * [Best Time to Buy and Sell Stock IV](dp/array/BestTimeToBuyAndSellStock4.md)
         * [Jump Game](dp/array/JumpGame.md)
+        * [Longest Valid Parentheses](dp/array/LongestValidParentheses.md)
 * [Greedy](greedy/README.md)
     * [Jump Game II](greedy/JumpGame2.md)
 * [DFS](dfs/README.md)

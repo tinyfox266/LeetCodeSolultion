@@ -23,7 +23,7 @@ This online version of this book can be viewed on [gitbook.com] http://tinyfox26
 - [x] 52 N-Queens II
 - [x] 55 Jump Game
 - [x] 45 Jump Game II
-- [ ] 32 Longest Valid Parentheses
+- [x] 32 Longest Valid Parentheses
 - [ ] 37 Sudoku Solver
 - [ ] 72 Edit Distance
 
